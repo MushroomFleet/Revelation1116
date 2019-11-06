@@ -1,0 +1,17 @@
+git clone https://github.com/jaxBCD/ReconT.git
+apt install python3 nmap
+pip3 install -r requirements.txt
+
+reconT.py --help
+
+//-
+  --timeout INTEGER  Seconds to wait before timeout connections
+  --proxy TEXT       if Use a proxy ex: 0.0.0.0:8888if with auth
+                     0.0.0.0:8888@user:password
+  --cookies TEXT     if use cookie comma separated cookies to add the
+                     requestex: PHPSESS:123,kontol=True
+  --help             Show this message and exit.
+  -//
+  
+python3 reconT.py https://www.mushroomfleet.com/ | cat > mushroomfeet.txt
+cat mushroomfeet.txt

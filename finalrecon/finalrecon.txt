@@ -1,0 +1,12 @@
+git clone https://github.com/thewhiteh4t/FinalRecon.git
+cd FinalRecon
+pip3 install -r requirements.txt
+
+python3 finalrecon.py --help
+
+python3 finalrecon.py --full www.mushroomfleet.com
+cd dumps
+cat www.mushroomfleet.com.dump
+
+
+>> reconT

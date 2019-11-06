@@ -1,0 +1,14 @@
+git clone https://github.com/graniet/operative-framework.git
+cd operative-framework
+pip install -r requirements.txt
+python operative.py
+
+//modules// to show modules
+
+use core/modules/whois_domain
+show_options
+set website=technology.info
+
+use core/modules/email_to_domain
+show_options
+set email=rights.domainmanager@futurenet.com

@@ -1,0 +1,12 @@
+telnet 192.168.1.101 25
+VRFY sys
+VRFY admin
+VRFY administrator
+VRFY owner
+VRFY root
+
+//smtp-user-enum -M VRFY -U <userlist> -t <target IP>//
+
+//word list: /usr/share/fern-wifi-cracker/extras/wordlist//
+
+smtp-user-enum -M VRFY -U /usr/sharefern-wifi-cracker/extras/wordlist -t 192.168.1.101

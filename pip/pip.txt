@@ -1,0 +1,4 @@
+mkdir pip
+cd pip
+git clone https://github.com/pypa/pip.git
+python setup.py
