@@ -1,0 +1,17 @@
+sudo apt update
+sudo apt install git -y
+git clone https://github.com/rajkumardusad/IP-Tracer.git
+cd IP-Tracer
+chmod +x install
+./install
+trace -t 127.0.0.1
+
+
+
+
+git clone https://github.com/theshadowbrokerss/Blue-Thunder-IP-Locator-.git
+sudo chmod +x blue_thunder_IP_locator.pl
+cd Blue-Thunder-IP-Locator-/
+sudo chmod +x blue_thunder_IP_locator.pl
+sudo chmod +x blue_thunder.pl
+perl blue_thunder.pl 127.0.0.1
